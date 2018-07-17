@@ -1,0 +1,4 @@
+---
+title: Lessons
+layout: single
+---
