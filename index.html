@@ -1,4 +1,49 @@
 ---
-layout: home
-author_profile: true
+title: Welcome to BioData Club!
+layout: splash
+classes: wide
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/img/biodataclubphoto.jpg
+excerpt: "Let's learn about data science together"
+intro:
+  -  image_path: /assets/img/Hex-BDP-small.png
+     alt: "BioData Club logo"
+     title: "What is BioData Club?"
+     excerpt: "BioData Club is an informal and interdisciplinary meetup initiated by a group of OHSU students, staff, and faculty focusing on skills in Data Science. We come together to share skills, ask questions, and learn new open research tools. We believe anyone can learn to program and are happy to help you start from scratch! Join us to write your first line of code, learn new data management and analysis skills, try your hand at teaching in an informal context - or just show up at our Hacky Hour co-learning events to work on your own projects with other people."
+events:
+  -  title: "Events"
+     excerpt: "We try and do a mix of both practical learning (workshops) and networking (hacky hours)."
+get_involved:
+  -  title: "Teach and Organize"
+     btn_label: "Learn More"
+     btn_class: "btn--primary"
+     url: /teaching/
+     excerpt: "We're all learners in BioData Club. If there's something you want to learn, we want to help you learn it."
+  -  title: "Slack"
+     excerpt: "Join us in our Slack chat room if you have questions about Data Science and want to learn more."
+     url: http://biodata-club.slack.com
+     btn_label: "Join Slack"
+     btn_class: "btn--primary"
+  -  title: "Mailing List"
+     excerpt: "Join our Mailing List to be notified about upcoming events."
+     btn_label: "Mailing List"
+     btn_class: "btn--primary"
+     url:
 ---
+{% include feature_row %}
+
+{% include feature_row id="intro" type = "left" %}
+
+{% include feature_row id="events" %}
+
+{% include feature_row id="get_involved" %}
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% include paginator.html %}
