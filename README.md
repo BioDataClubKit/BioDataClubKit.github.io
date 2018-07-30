@@ -3,15 +3,15 @@
 ![BioData Club Logo](assets/img/Hex-BDP-small.png)
 
 1. What's included in the kit
-    a. Where everything is
-    a. Website Template
-    b. Workshop Content
-    c. Community Building Guide/Lessons Learned
+    + Where everything is
+    + Website Template
+    + Workshop Content
+    + Community Building Guide/Lessons Learned
 2. How to Use this Site
-    a. Starting out
-    b. Updating Events
+    + Starting out
+    + Updating Events
 3. Survey for Data Science Needs
-    a. How to implement
+    + How to implement
 4. CD2H
 
 
@@ -29,6 +29,7 @@
 
 # Acknowledgements
 
-This kit is a project of the Center for Data to Health (CD2H).
+This kit is a project of the [Center for Data to Health (CD2H)](https://ctsa.ncats.nih.gov/cd2h/cd2h-labs/). Website template is based on [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes).
 
 The BioData Club Logo was designed by Danielle Robinson. 
+
