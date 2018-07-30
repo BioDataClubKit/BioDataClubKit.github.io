@@ -1,6 +1,6 @@
 # BioData Club Kit
 
-![assets/img/Hex-BDP-small.png](BioData Club Logo)
+![BioData Club Logo](assets/img/Hex-BDP-small.png)
 
 1. What's included in the kit
     a. Where everything is
@@ -14,7 +14,6 @@
     a. How to implement
 4. CD2H
 
-This kit is a project of the Center for Data to Health (CD2H).
 
 # Starting Up
 
@@ -27,3 +26,9 @@ This kit is a project of the Center for Data to Health (CD2H).
 # Adding events
 
 1. YAML can be a little tricky
+
+# Acknowledgements
+
+This kit is a project of the Center for Data to Health (CD2H).
+
+The BioData Club Logo was designed by Danielle Robinson. 
