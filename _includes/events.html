@@ -2,22 +2,24 @@
  {% assign event_date = event.date %}
  {% assign event_location = event.location %}
  {% assign event_time = event.time%}
- {% if event_description %}
+ {% if event.description %}
    {% assign event_description = event.description %}
  {% endif %}
- {% if event.url %}
-   {% assign event_url = event.url %}
+ {% if event.link %}
+   {% assign event_link = event.link %}
  {% endif %}
 
 <div class="{{ include.type | default: " list " }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     <h2 class="archive__item-title">{{ event_title }}</h2>
-    <h3>{{ event_date | date: "%B %d, %Y" }}</h3>
-    <h3>{{ event_time }}</h3>
-    {% if event_url %}
-    <h3>Link: <a href="{{event_url}}"{{ event_url }}></a></h3>
+    <p>{{ event_date | date: "%B %d, %Y" }} at {{ event_time }}<br>
+     Location: {{ event_location }}<br>
+    {% if event_link %}
+        Link: <a href="{{ event_link }}"> {{ event_link }}</a>
     {% endif %}
-    <h3>Location: {{ event_location }}</h3>
-    <p class="archive__item-excerpt" itemprop="description">{{ event_description | markdownify | strip_html }}</p>
+
+    {% if event_description %}
+    <p class="archive__item-excerpt" itemprop="description">{{ event_description | markdownify }}</p>
+    {% endif %}
   </article>
 </div>
