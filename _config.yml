@@ -175,6 +175,10 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
+# Collections
+collections:
+-  events
+
 
 # Markdown Processing
 kramdown:
@@ -268,3 +272,9 @@ defaults:
       comments: # true
       share: true
       related: true
+  - scope:
+      path: ""
+      type: events
+    values:
+      layout: event
+      share: true

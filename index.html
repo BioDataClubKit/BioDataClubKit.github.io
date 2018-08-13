@@ -43,10 +43,13 @@ get_involved:
 
 {% include feature_row id="get_involved" %}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+<h2>Upcoming Events</h2>
 
-{% for post in paginator.posts %}
-  {% include archive-single.html %}
+{% capture now %}{{'now' | date: '%s' | plus: -30 %}}{% endcapture %}
+
+{% for event in site.events %} 
+    {% capture date %}{{post.date | date: '%s' | plus: 0 %}}{% endcapture %} 
+    {% if date > now %}
+      {% include events.html %}
+    {% endif %}
 {% endfor %}
-
-{% include paginator.html %}
