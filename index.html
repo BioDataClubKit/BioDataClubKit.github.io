@@ -11,7 +11,7 @@ intro:
   -  image_path: /assets/img/Hex-BDP-small.png
      alt: "BioData Club logo"
      title: "What is BioData Club?"
-     excerpt: "BioData Club is an informal and interdisciplinary meetup initiated by a group of OHSU students, staff, and faculty focusing on skills in Data Science. We come together to share skills, ask questions, and learn new open research tools. We believe anyone can learn to program and are happy to help you start from scratch! Join us to write your first line of code, learn new data management and analysis skills, try your hand at teaching in an informal context - or just show up at our Hacky Hour co-learning events to work on your own projects with other people."
+     excerpt: "BioData Club is an informal and interdisciplinary meetup initiated by a group of students, staff, and faculty focusing on skills in Data Science. We come together to share skills, ask questions, and learn new open research tools. We believe anyone can learn to program and are happy to help you start from scratch! Join us to write your first line of code, learn new data management and analysis skills, try your hand at teaching in an informal context - or just show up at our Hacky Hour co-learning events to work on your own projects with other people."
      url: http://github.com/biodataclubkit/biodataclubkit.github.io
      btn_label: Download the Kit
      btn_class: "btn--primary"
@@ -33,13 +33,15 @@ get_involved:
      excerpt: "Join our Mailing List to be notified about upcoming events."
      btn_label: "Mailing List"
      btn_class: "btn--primary"
-     url:
+     url: http://tinyletter.com/biodataclub
 ---
 {% include feature_row %}
 
+<a name="about"></a>
 {% include feature_row id="intro" type = "left" %}
 
-<h2>Upcoming Events</h2>
+<a name="events"></a>
+<h1>Upcoming Events</h1>
 
 {% assign sorted_events = site.events | sort: 'date' | reverse %}
 
@@ -50,5 +52,6 @@ get_involved:
  
 {% endfor %}
 
+<a name="contact"></a>
 {% include feature_row id="get_involved" %}
 
