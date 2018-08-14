@@ -1,5 +1,5 @@
 ---
-title: "This is your first event"
+title: "First Event"
 date: 2020-01-01
 time: "2 PM"
 location: "123 Fake Street"

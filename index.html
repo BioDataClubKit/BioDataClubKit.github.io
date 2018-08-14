@@ -3,8 +3,8 @@ title: Welcome to BioData Club!
 layout: splash
 classes: wide
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
+  overlay_color: "#333"
+  overlay_filter: "1"
   overlay_image: /assets/img/biodataclubphoto.jpg
 excerpt: "Let's learn about data science together"
 intro:
@@ -16,8 +16,11 @@ intro:
      btn_label: Download the Kit
      btn_class: "btn--primary"
 events:
-  -  title: "Events"
-     excerpt: "We try and do a mix of both practical learning (workshops) and networking (hacky hours)."
+  - title: "Events"
+    excerpt: "We try and do a mix of both practical learning (workshops) and networking (hacky hours)."
+contact:
+  - title: "Contact Us"
+    excerpt: "Whether you're a beginner, intermediate, or expert, we want you to be involved with BioData Club."
 get_involved:
   -  title: "Teach and Organize"
      btn_label: "Learn More"
@@ -41,17 +44,20 @@ get_involved:
 {% include feature_row id="intro" type = "left" %}
 
 <a name="events"></a>
-<h1>Upcoming Events</h1>
+{% include feature_row id="events" type = "center" %}
 
 {% assign sorted_events = site.events | sort: 'date' | reverse %}
 
+{% capture now_moment %}{{ "today" | date: '%s' }}{% endcapture %}
+
 {% for event in sorted_events %} 
     {% capture date %}{{ event.date | date: '%s' | plus: 0 }}{% endcapture %} 
- 
+     {% if date > now_moment %}
       {% include events.html %}
- 
+      {% endif %}
 {% endfor %}
 
 <a name="contact"></a>
+{% include feature_row id="contact" type = "center" %}
 {% include feature_row id="get_involved" %}
 
