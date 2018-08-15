@@ -3,7 +3,7 @@ title: Lessons
 layout: single
 ---
 
-Here are past topics and lessons from BioData Club. If you want us to do another workshop, please let us know!
+Here are past topics and workshops from BioData Club. If you want us to do another workshop, please let us know!
 
 
 # Workshops
