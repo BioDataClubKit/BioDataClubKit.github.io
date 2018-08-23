@@ -48,7 +48,7 @@ get_involved:
 <a name="events"></a>
 {% include feature_row id="events" type = "center" %}
 
-{% assign sorted_events = site.events | sort: 'date' | reverse %}
+{% assign sorted_events = site.events | sort: 'date' %}
 
 {% capture now_moment %}{{ "today" | date: '%s' }}{% endcapture %}
 
