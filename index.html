@@ -4,7 +4,7 @@ layout: splash
 classes: wide
 header:
   overlay_color: "#333"
-  overlay_filter: "1"
+  overlay_filter: "0.5"
   overlay_image: /assets/img/biodataclubphoto.jpg
 excerpt: "Let's learn about data science together"
 intro:
@@ -52,8 +52,8 @@ get_involved:
 
 {% capture now_moment %}{{ "today" | date: '%s' }}{% endcapture %}
 
-{% for event in sorted_events %} 
-    {% capture date %}{{ event.date | date: '%s' | plus: 0 }}{% endcapture %} 
+{% for event in sorted_events %}
+    {% capture date %}{{ event.date | date: '%s' | plus: 0 }}{% endcapture %}
      {% if date > now_moment %}
       {% include events.html %}
       {% endif %}
@@ -62,4 +62,3 @@ get_involved:
 <a name="contact"></a>
 {% include feature_row id="contact" type = "center" %}
 {% include feature_row id="get_involved" %}
-
