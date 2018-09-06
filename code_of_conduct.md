@@ -1,4 +1,7 @@
-# Code of Conduct
+---
+title: Code of Conduct
+layout: single
+---
 
 ## 1. Purpose
 
