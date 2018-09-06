@@ -38,7 +38,7 @@
 
           {% if f.excerpt %}
             <div class="archive__item-excerpt">
-              {{ f.excerpt }}
+              {{ f.excerpt | newline_to_br | markdownify }}
             </div>
           {% endif %}
 
