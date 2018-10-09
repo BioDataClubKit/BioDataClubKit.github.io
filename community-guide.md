@@ -16,7 +16,7 @@ We have co-learning events known as "Hacky Hours", where we chat about various t
 
 ## Be Inclusive
 
-We believe having a diverse group of learners at BioData Club is important. We do our best to reach out to people who might have never considered data science interesting and accessible. To this end, we try and invite as many departments we know to participate. We also have a Code of Conduct that we enforce to encourage a diverse and inclusive audience.
+We believe having a diverse group of learners at BioData Club is important. We do our best to reach out to people who might have never considered data science interesting and accessible. To this end, we try and invite as many departments and people we know to participate. We also have a Code of Conduct that we enforce to encourage a diverse and inclusive audience.
 
 ## Include the Library
 
@@ -30,6 +30,10 @@ Students are the powerhouses of BioData Club, brainstorming new activities, lear
 
 We aim to empower learners to help teach themselves and others. Even if you're not an expert, we still want you to teach. From our community, we try to find other members who can help support people with learning. We also ask community members to TA (be teaching assistants) at workshops to make them fun and accessible. 
 
+## Slack!
+
+We have a Biodata Club slack and it's been invaluable for community building. Oftentimes, people will ask data science questions that we can't answer, but someone in the rest of the community can.
+
 ## Community Building Guides
 
 - [Mozilla Community Participation Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/)
@@ -38,7 +42,7 @@ We aim to empower learners to help teach themselves and others. Even if you're n
 
 ## Values and Principles of BioData Club
 
-Here is a list of the principles by which we run BioData Club at OHSU. Please feel free to modify as you see fit.
+Here is a list of the principles by which we run BioData Club at OHSU. Please feel free to modify as you see fit for your own institution.
 
 1. *Breakdown Hierarchies within the Academic Setting*. We are not only multi-disciplinary, but we are also non-hierarchical within BioData Club. We consist of faculty, postdocs, staff, and students. We are united by a common goal of improving our skills and helping others to learn. 
 
