@@ -1,10 +1,18 @@
 # Building Your Own BioData Club
 
-The following are some lessons learned from building our BioData Club community. 
+The following are some lessons learned from building our BioData Club community that may be helpful in building a BioData Club at your institution.
 
 ## Align your groups together
 
-Find common goals for each person who comes to BioData Club. At BioData Club OHSU, we are a community of co-learners focused on learning data science. However, this goal may be different 
+Find common goals for each person who comes to BioData Club. At BioData Club OHSU, we are a community of co-learners focused on learning data science. However, this goal may be slightly different for your institution. 
+
+## Make the setting informal
+
+So much of academic learning is didactic lecturing. We try to focus on active learning in an informal context, making it safe to ask questions. 
+
+## Understand the power of food
+
+We have co-learning events known as "Hacky Hours", where we chat about various topics. Food and drink is almost always involved, and we hold them at places where we can chat about the current topic. 
 
 ## Be Inclusive
 
@@ -13,10 +21,14 @@ We believe having a diverse group of learners at BioData Club is important.
 ## Include the Library
 
 The library at any institution is an underrated resource for bringing groups together, especially data librarians and open science librarians. 
-  
+
 ## Make sure to include students
 
+Students are the powerhouses of BioData Club, brainstorming new activities, learning about new ways to look at data, and new technologies. Be sure to 
 
+## Build Mentoring into the Community Structure
+
+We aim to empower learners to help teach themselves and others. Even if you're not an expert, we still want you to teach. From our community, we try to find other members who can help support people with learning. We also ask community members to TA (be teaching assistants) at workshops to make them fun and accessible.
 
 ## Community Building Guides
 
