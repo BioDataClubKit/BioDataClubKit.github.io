@@ -10,15 +10,15 @@ Additionally, it contains the following:
 
 1. [Code of Conduct](https://github.com/BioDataClubKit/BioDataClubKit.github.io/blob/master/code_of_conduct.md) - a suggested code of conduct for your own BioData Club Organization. The key to interdisciplinary learning is learning in a psychologically safe environment, and we believe our Code of Conduct encourages inclusion of many different kinds of learners.
 2. [Community Guide](https://github.com/BioDataClubKit/BioDataClubKit.github.io/blob/master/community-guide.md) - tips and tricks we've learned about building our own BioData Club Community
-3. Survey (to be added soon). This are surveys that help you understand the data science needs of your community, and pre and post workshop surveys to understand and improve your workshops.
+3. Surveys (to be added soon). These are surveys that help you understand the data science needs of your community, and pre and post workshop surveys to understand and improve your workshops.
 
 # Starting Up Your Own BioData Club
 
 ## 1. Forking this Repo
 
-To get started, fork this repository to your [GitHub Organization](https://help.github.com/articles/about-organizations/). 
+To get started, fork this repository to your [GitHub Organization](https://help.github.com/articles/about-organizations/). Click the "Fork" button on the top right of the page to do so.
 
-## 2. Enabling the Repo via GitHub Pages
+## 2. Enabling your repository to run on GitHub Pages
 
 Now you need to change the repository name to [ORGNAME].github.io, where [ORGNAME] is the name of your new organization.
 
@@ -28,7 +28,7 @@ Once you're done with that, make sure that you have clicked on, click on "Settin
 
 The site is designed to be very customizable in terms of text. You can edit the splash page (the main page of the website) by editing the `index.html` file in the root folder. For the main splash page, each of the sections has a "feature row". The text for each row is under the `excerpt` heading in the YAML front matter. For example, the `intro` row has the following YAML entry.
 
-`title` and `excerpt` are the two main sections for changing the text. To add a line break for the text of a feature row, use `<br><br>` within the text.
+`title` and `excerpt` are the two main sections for changing the text. To add a line break for the text of a feature row, use `<br><br>` within the text. You can add link buttons by adding a `url`, a `btn_label` and a `btn_class` field.
 
 ```
 intro:
@@ -50,7 +50,7 @@ You can see an example event here with all of the YAML fields to fill: https://g
 
 Make a copy of one of these events, and make sure that you change the date in the title. For example, to add an event for October 16, 2018, I'd copy the file and change the name to `2018-10-16-my-new-event.md`. 
 
-Here's an example of an event file. Make sure the text is in the double quotes. 
+Here's an example of an event file. Make sure the text is in the double quotes. Make sure the link is a URL.
 
 ```
 ---
