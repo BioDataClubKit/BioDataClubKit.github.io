@@ -10,3 +10,5 @@ main:
     url: "/blog/"
   - title: "Contact"
     url: "/#contact"
+  - title: "Conduct"
+    url: "/code_of_conduct/"
