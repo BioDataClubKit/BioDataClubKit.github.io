@@ -39,6 +39,7 @@ We have a Biodata Club slack and it's been invaluable for community building. Of
 - [Mozilla Community Participation Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/)
 - [NumFOCUS DISCOVER Cookbook](https://github.com/numfocus/DISCOVER-Cookbook)
 - [Apache Incubator Community Building Guidelines](https://incubator.apache.org/guides/community.html)
+- [The Universal Rules of Civilized Discourse] (https://blog.discourse.org/2013/03/the-universal-rules-of-civilized-discourse/)
 
 ## Values and Principles of BioData Club
 
